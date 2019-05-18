@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/main_add_new_picture_BT"
+            android:text="@string/main_add_new_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/global_margin"
+            android:layout_marginBottom="@dimen/global_half_margin"
+            android:layout_marginStart="@dimen/global_margin"
+            android:layout_marginEnd="@dimen/global_margin"
+            android:background="@color/colorButton"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/main_add_new_picture_BT"
+            android:scrollbars="vertical">
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

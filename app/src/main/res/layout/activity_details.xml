@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DetailsActivity">
+
+    <Button
+            android:id="@+id/details_BT"
+            android:text="@string/details_change_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/global_margin"
+            android:layout_marginBottom="@dimen/global_half_margin"
+            android:layout_marginStart="@dimen/global_margin"
+            android:layout_marginEnd="@dimen/global_margin"
+            android:background="@color/colorButton"/>
+
+    <FrameLayout
+            android:id="@+id/fragment_holder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/details_BT">
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/itemIV"
+            android:layout_width="@dimen/item_image_size"
+            android:layout_height="@dimen/item_image_size"
+            android:contentDescription="@string/item_image_description"
+            android:layout_marginTop="@dimen/global_half_margin"
+            android:layout_marginBottom="@dimen/global_half_margin"
+            android:layout_marginStart="@dimen/global_half_margin">
+    </ImageView>
+
+    <TextView
+            android:id="@+id/itemDateTV"
+            android:text="@string/item_date"
+            android:textSize="@dimen/item_date_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/itemIV"
+            android:layout_marginStart="@dimen/global_half_margin"
+            android:layout_marginTop="@dimen/global_half_margin"
+            android:layout_marginBottom="@dimen/global_half_margin"
+            android:textColor="@color/colorDate"/>
+
+    <TextView
+            android:id="@+id/item_tag_TV1"
+            android:text="@string/item_tag"
+            android:textSize="@dimen/item_tag_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/itemIV"
+            android:layout_below="@id/itemDateTV"
+            android:layout_marginStart="@dimen/global_half_margin"
+            android:visibility="invisible"
+            android:textColor="@color/colorTag"/>
+    <TextView
+            android:id="@+id/item_tag_TV2"
+            android:text="@string/item_tag"
+            android:textSize="@dimen/item_tag_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/itemIV"
+            android:layout_below="@id/item_tag_TV1"
+            android:layout_marginStart="@dimen/global_half_margin"
+            android:visibility="invisible"
+            android:textColor="@color/colorTag"/>
+    <TextView
+            android:id="@+id/item_tag_TV3"
+            android:text="@string/item_tag"
+            android:textSize="@dimen/item_tag_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/itemIV"
+            android:layout_below="@id/item_tag_TV2"
+            android:layout_marginStart="@dimen/global_half_margin"
+            android:visibility="invisible"
+            android:textColor="@color/colorTag"/>
+</RelativeLayout>

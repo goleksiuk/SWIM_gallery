@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_image_size">200dp</dimen>
+
+    <dimen name="item_date_text_size">20sp</dimen>
+    <dimen name="item_tag_text_size">18sp</dimen>
+
+    <dimen name="global_zero">0dp</dimen>
+    <dimen name="global_margin">8dp</dimen>
+    <dimen name="global_half_margin">4dp</dimen>
+</resources>

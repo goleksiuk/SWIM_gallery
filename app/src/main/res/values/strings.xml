@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Gallery</string>
+
+    <string name="main_add_new_picture">Add new picture</string>
+
+    <string name="details_change_details">Change details</string>
+
+    <string name="anp_add_item">Add Image</string>
+    <string name="anp_add_new_tag">Add New Tag</string>
+    <string name="anp_save_picture">Save Picture</string>
+
+    <string name="item_date">Date</string>
+    <string name="item_tag">Tag</string>
+    <string name="item_image_description">Description</string>
+</resources>

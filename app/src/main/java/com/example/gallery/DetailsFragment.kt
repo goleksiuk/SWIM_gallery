@@ -24,7 +24,7 @@ class DetailsFragment : Fragment() {
         val tags = arguments!!.getStringArrayList("tags")
         val similarPictures = arguments!!.getStringArrayList("similarPictures")
 
-        val listViewAdapter = ArrayAdapter(activity, android.R.layout.simple_list_item_1, tags)
+        val listViewAdapter = ArrayAdapter(context!!, android.R.layout.simple_list_item_1, tags!!.toMutableList())
         val similarPicturesUri = ArrayList<Uri>()
 
         for(uriString in similarPictures!!) {
